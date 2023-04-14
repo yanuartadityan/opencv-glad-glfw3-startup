@@ -1,6 +1,6 @@
 ## Intro
 
-![Running on WSL2!](https://github.com/yanuartadityan/opencv-glad-glfw3-startup/main/blob/glfw_opencv_texture.png?raw=true)
+![Running on WSL2!](https://github.com/yanuartadityan/opencv-glad-glfw3-startup/blob/main/blob/glfw_opencv_texture.png?raw=true)
 <br><br>
 Load a 2D media (pictures or videos) with OpenCV C++, draw through OpenGL Texture and visualize on GLFW3.
 
