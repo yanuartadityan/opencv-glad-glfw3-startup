@@ -1,5 +1,8 @@
-message("Set OpenCV directory")
-set("OpenCV_DIR" "C:\\mingw64-8.0.0-r3\\x86_64-w64-mingw32\\x64\\mingw\\lib")
+IF(WIN32)
+	message("Set OpenCV directory")
+	set("OpenCV_DIR" "C:\\mingw64-8.0.0-r3\\x86_64-w64-mingw32\\x64\\mingw\\lib")
+ENDIF()
+
 find_package(OpenCV REQUIRED)
 
 add_subdirectory(imgui)
