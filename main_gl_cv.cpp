@@ -225,7 +225,7 @@ int main(int argc, char* argv[]){
         glfwPollEvents();
 
         ++frame_count;
-        lock_frame_rate(0);
+        lock_frame_rate(60);
     }
 
     // cleanup

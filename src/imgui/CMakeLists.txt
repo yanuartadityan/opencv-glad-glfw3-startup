@@ -7,3 +7,5 @@ list(APPEND IMGUI_SOURCES
         imgui_widgets.cpp)
 
 add_library(imgui STATIC ${IMGUI_SOURCES})
+
+target_include_directories(imgui PUBLIC ../../ext/glfw/include)
